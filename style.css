@@ -1,0 +1,131 @@
+/* ==========Google font=============== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Montserrat:wght@200;300;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Vina+Sans&display=swap');
+/* default settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* section design */
+section{
+    padding: 0rem 30rem;
+}
+
+.counter_con{
+    width: 100%;
+    max-width: 600px;
+    height: 50vh;
+    background: #008545;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter_con h1{
+    font-size: 1.7;
+    font-weight: 200;
+    letter-spacing: 9px;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+.counter_con h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 4.9rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.counter_con span{
+    color: #FFD600;
+}
+
+.counter_settings{
+    width: 100%;
+    max-width: 600px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#countinput{
+    width: 30rem;
+    height: auto;
+    text-align: center;
+    padding: 1.1rem 0.20rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 20px;
+    color: #fff;
+    background: #008545;
+    border: none;
+}
+
+.countbtn{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+#Increment{
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    text-transform:uppercase;
+    background: #008545;
+    color: #fff;
+}
+
+#Increment:hover{
+    cursor: pointer;
+    background: #5fb98d;
+    color: #fff;
+}
+
+#Decrement{
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    text-transform:uppercase;
+    color: #FFF;
+    background: #a50c0c;
+}
+
+#Decrement:hover{
+    cursor: pointer;
+    color: #FFF;
+    background: #e08181;
+}
+
+#Reset{
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    text-transform:uppercase;
+    color: #fff;
+    background: #3498db;
+}
+
+#Reset:hover{
+    background: #87ceeb;
+    cursor: pointer;
+}
