@@ -1,5 +1,7 @@
 let count = 0;
 
+document.getElementById("countinput").innerText = "0"
+
 document.getElementById("Increment").onclick = function(){
     count+= 1;
     document.getElementById("countinput").innerHTML = count;
