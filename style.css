@@ -15,7 +15,7 @@ section{
 
 .counter_con{
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
     height: 50vh;
     background: #008545;
     display: flex;
@@ -25,7 +25,7 @@ section{
 }
 
 .counter_con h1{
-    font-size: 1.7;
+    font-size: 1.7rem;
     font-weight: 200;
     letter-spacing: 9px;
     text-transform: capitalize;
@@ -48,7 +48,7 @@ section{
 
 .counter_settings{
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -128,4 +128,75 @@ section{
 #Reset:hover{
     background: #87ceeb;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1320px) {
+    section{
+        padding: 0rem 15rem;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    section{
+        padding: 0rem 9rem;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    section{
+        padding: 0rem 3rem;
+    }
+
+    .counter_con h1{
+        font-size: 1rem;
+    }
+
+    .counter_con h3{
+        font-size: 3.4rem;
+    }
+    
+    #Increment{
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    #Decrement{
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    #Reset{
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    section{
+        padding: 0rem 1rem;
+    }
+
+    .counter_con h1{
+        font-size: 15px;
+    }
+
+    .counter_con h3{
+        font-size: 3rem;
+    }
+    
+    #Increment{
+        padding: 1rem 1rem;
+        font-size: 13px;
+    }
+
+    #Decrement{
+        padding: 1rem 1rem;
+        font-size: 13px;
+    }
+
+    #Reset{
+        padding: 1rem 1rem;
+        font-size: 13px;
+    }
 }
